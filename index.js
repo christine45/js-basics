@@ -181,6 +181,8 @@ console.log(lemonbarindex);
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
+var mariahStory = "At the age of" + mariahCareyAge, + " " + "Mariah Carey," + " " + "wearing her fancy " + favSneaker, + " " + "sang" + favLoveSong + " " + "at the" + "coffeeShop.";
+console.log(mariahStory);
 
 var firstName = "Christine";
 var lastName = " Tamamoto";
@@ -287,15 +289,15 @@ console.log(compareNum3);
 **/
 var myBox = 45
 console.log(myBox);
-myBox -= 4;
+myBox --
 console.log(myBox);
-myBox += 8;
+myBox += 
 console.log(myBox);
-myBox *= 9;
+myBox *= 
 console.log(myBox);
-myBox /= 2;
+myBox /= 
 console.log(myBox);
-myBox %= 1;
+myBox %= 
 console.log(myBox);
 
 /**
