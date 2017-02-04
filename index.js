@@ -181,7 +181,7 @@ console.log(lemonbarindex);
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
-var mariahStory = "At the age of" + mariahCareyAge, + " " + "Mariah Carey," + " " + "wearing her fancy " + favSneaker, + " " + "sang" + favLoveSong + " " + "at the" + "coffeeShop.";
+var mariahStory = "At the age of" + mariahCareyAge + " " + "Mariah Carey," + " " + "wearing her fancy " + favSneaker + " " + "sang" + favoriteSong + " " + "at the" + "coffeeShop.";
 console.log(mariahStory);
 
 var firstName = "Christine";
@@ -313,12 +313,12 @@ console.log(myBox);
 
 **/
 function bakePie(ingredient){
-	return "Today's special is " + ingredient + "pie."
+	return "Today's special is " + ingredient + " pie.";
 }
-console.log(bakePie);
 
-var pet = "Kamau";
-console.log(pet);
+console.log(bakePie("blueberry"));
+
+
 
 
 
