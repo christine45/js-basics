@@ -15,6 +15,26 @@ console.log(pet);
 *
 * Each value should be a String. 
 **/
+var firstName = "christine";
+console.log(firstName);
+var lastName = "garingan";
+console.log(lastName);
+var birthPlace = "Honolulu";
+console.log(birthPlace);
+var favoriteFood = "local moco";
+console.log(favoriteFood);
+var favoriteMovie = "She's The Man";
+console.log(favoriteMovie);
+var favoriteSong = "From The Ground Up";
+console.log(favoriteSong);
+var cuteAnimal = "puppies";
+console.log(cuteAnimal);
+var favColor = "pink";
+console.log(favColor);
+var favSneaker = "vans";
+console.log(favSneaker);
+var coffeeShop = "Sure Shot";
+console.log(coffeeShop);
 
 
 /**
@@ -25,6 +45,26 @@ console.log(pet);
 *
 * Each value should be a Number
 **/
+var favoriteNumber = 45;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 2018;
+console.log(tokyoOlympics);
+var mariahCareyAge = 35;
+console.log(mariahCareyAge);
+var currentTemp = 50;
+console.log(currentTemp);
+var studentsInClass = 12;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 6;
+console.log(currentIphoneModel);
+var shoeSize = 6;
+console.log(shoeSize);
 
 
 /**
@@ -35,6 +75,27 @@ console.log(pet);
 *
 * Each value should be a Boolean
 **/
+var likesMcDonalds = true;
+console.log(likesMcDonalds);
+var watchedMrRobot = false;
+console.log(watchedMrRobot);
+var ranMarathon = false;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = true;
+console.log(lovesDonuts);
+var readHarryPotter = false;
+console.log(readHarryPotter);
+var sleptInClass = true;
+console.log(sleptInClass);
+var drinksCoffee = true;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = false;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = false;
+console.log(ownsRedShoes);
+
 
 
 /**
@@ -45,13 +106,19 @@ console.log(pet);
 *
 * Each value should be Null 
 **/
-
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null;
+console.log(scoredTDinNFL);
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
-
+//A null is a unknown data
+//Something is undefined when no value has been assigned to it yet
 
 /**
 * #6
@@ -64,7 +131,18 @@ console.log(pet);
 * Declare a variable named `duets` and assign it an array containing 3 nested arrays, each containing the names of 2 singers or bands.
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
-
+var plateLunch = ["Kalua pig", "Fried rice", "Loco moco", "Garlic chicken", "beef stew"];
+console.log(plateLunch);
+var fruitBasket = ["Strawberry", "Blueberry", "Kiwi", "Blackberry", "Rasberry"];
+console.log(fruitBasket);
+var westCoast = ["California", "Washington", "Oregon"];
+console.log(westCoast);
+var lotteryResult = [4, 24, 153, 47, 185];
+console.log(lotteryResult);
+var duets = [ ["NSYNC and Backstreet Boys"], ["Taylor Swift and John Mayer"], ["Dan and Shay"]];
+console.log(duets); 
+var mixPlate = [3, "cake", [5>2], drinksCoffee];
+console.log(mixPlate);
 
 
 /*7
@@ -75,14 +153,25 @@ var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "oran
 What is the length of this array? Please print the length (a number) to the console.
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
-*/
+*/ 
 
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+partyList.length;
+console.log(partyList.length);
+
+
+var carrotcakeindex = partyList.indexOf ("carrot cake");
+console.log(carrotcakeindex);
+
+var lemonbarindex = partyList.indexOf ("lemon bars");
+console.log(lemonbarindex);
 
 
 /*
 * #8 
 * Concatenation 
 * Concatenate the variables `firstName` and `lastName` and store this to a new variable called `fullName`.
+
 
 * Declare a new variable, `whereFrom`, and assign it the value of a string using the variables `fullName` and `birthPlace`:
  xx xx is from xx.
@@ -93,22 +182,42 @@ What is the index position of lemon bars? Please print this item to the console.
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
 
+var firstName = "Christine";
+var lastName = " Tamamoto";
+var fullName = firstName.concat(lastName);
+console.log(firstName.concat(lastName));
 
-
-/**
-* #9 Arithmetic
-* Variables with the outcome of an arithmetic operation.
-* Declare two variables, `num1` and `num2` and assign each of these variables a number of your choosing.
-* Next perform the following arithmetic operations:
-
-* Add the two variables and store it to new variable named `sum`.
-* Subtract the two variables and store it to a new variable named `difference`.
-* Mulitply the two variables and store it to a new variable named `product`.
-* Divide the two variables and store it to a new variable named `quotient`.
-* What is the remainder when you divide num1 by num2? Print your answer to the console.
+var whereFrom = " is from Honolulu";
+console.log(fullName.concat(whereFrom));
 
 
 
+
+
+var num1 = 9
+console.log(num1);
+var num2 = 4
+console.log(num2);
+
+var sum = num1 + num2;
+console.log(sum);
+
+var difference = num1 - num2; 
+console.log(difference);
+
+var product = num1 * num2;
+console.log(product);
+
+var quotient = num1 / num2;
+console.log(quotient);
+
+var remainder = num1 % num2;
+console.log(remainder);
+
+
+
+
+//
 /**
 * #10
 * Comparisons & Logic
@@ -117,19 +226,50 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Declare a variable named `isStrictlyEqual` and compare two strings "Tacocat" and "tacocat" using the strict equality.
 * Declare another variable named `isLooselyEqual` and compare the two strings "Tacocat" and "tacocat" using equality.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
+**/
+var isStrictlyEqual = "Tacocat" === "tacocat";
+console.log(isStrictlyEqual);
 
+var isLooselyEqual = "Tacocat" == "tacocat";
+console.log(isLooselyEqual);
+
+//Both answers are false because they are not equal value or of equal type
+
+/**
 * Declare a variable named `sameNum` and compare a string "5" and a number 5 using strict equality.
 * Declare another variable named `sameNumba` and compare a string "5" and a number 5 using equality.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
+**/
 
+var sameNum = "5" === 5;
+console.log(sameNum);
 
+var sameNumba = "5" == 5;
+console.log(sameNumba);
+/**
+// The answers are different because they have the string and the number are of the same value.  However, they have are of different types
 
+/**
 * Use the logical && or || and compare the following:
 * 3>2 3<1 (use or)
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?
+**/
 
+compareNum1 = 3>2 || 3<1;
+console.log(compareNum1);
+
+compareNum2 = 3>2 && 6>3;
+console.log(compareNum2);
+
+compareNum3 = 7>2 && 8<5;
+console.log(compareNum3);
+
+/**
+//The first line, one of the equations is true, and one is false. || makes the statement true because one the of statements is true.
+//The second line, both statements are true.
+// The last line needs the statment to all be equal for it to be true.  Only one statement is true, therefore, it is false.
 
 
 /**
@@ -144,6 +284,19 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Write 5 different assignment statements and `console.log()` the value of the variable after each
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 *
+**/
+var myBox = 45
+console.log(myBox);
+myBox -= 4;
+console.log(myBox);
+myBox += 8;
+console.log(myBox);
+myBox *= 9;
+console.log(myBox);
+myBox /= 2;
+console.log(myBox);
+myBox %= 1;
+console.log(myBox);
 
 /**
 * Final Boss 
@@ -156,7 +309,21 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.
 
+**/
+function bakePie(ingredient){
+	return "Today's special is " + ingredient + "pie."
+}
+console.log(bakePie);
 
+var pet = "Kamau";
+console.log(pet);
+
+
+
+
+
+
+/**
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
 * For example, if the value is 9, it should return "You jumped 9 feet high!"
